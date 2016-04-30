@@ -6,13 +6,13 @@ If we statically define height and width of any layout or if we use weights, it 
 <code>compile 'com.dshantanu.androidsquareslib:androidsquareslib:1.0'</code><br />
 <p>
 <u>Step 2:</u> Use the <strong><code>AndroidSquares</code></strong> View in your layout file depending on your requirement.  See following example to get an idea of how to use them.</p>
-<code>  <LinearLayout
+```xml  
+<LinearLayout
         android:id="@+id/ll_row1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:orientation="horizontal">
-
         <com.dshantanu.androidsquareslib.AndroidSquares
             android:layout_width="0dip"
             android:layout_height="0dip"
@@ -23,7 +23,6 @@ If we statically define height and width of any layout or if we use weights, it 
             android:padding="5dp" >
             <!-- Add contents here-->
         </com.dshantanu.androidsquareslib.AndroidSquares>
-
         <com.dshantanu.androidsquareslib.AndroidSquares
             android:layout_width="0dip"
             android:layout_height="0dip"
@@ -35,4 +34,4 @@ If we statically define height and width of any layout or if we use weights, it 
             <!-- Add contents here-->
         </com.dshantanu.androidsquareslib.AndroidSquares>
     </LinearLayout>
-</code>
+```
