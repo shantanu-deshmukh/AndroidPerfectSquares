@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidPerfectSquares</string>
+    <string name="st_btn_two_layouts">Two Perfect Squares</string>
+    <string name="st_btn_four_layouts">Four Perfect Squares</string>
+    <string name="st_btn_fourhr_layouts">Four Horizontal Square Layouts</string>
+</resources>

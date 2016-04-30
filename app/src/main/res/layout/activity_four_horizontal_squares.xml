@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dshantanu.androidperfectsquares.FourHorizontalSquaresActivity">
+
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+    30
+    31
+    32
+    33
+    34
+    35
+    36
+    37
+    38
+    39
+    40
+    41
+    42
+    43
+    <LinearLayout
+        android:id="@+id/ll_row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:elevation="8dp"
+            android:padding="5dp" />
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#8BC34A"
+            android:elevation="8dp"
+            android:padding="5dp" />
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:elevation="8dp"
+            android:padding="5dp" />
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#8BC34A"
+            android:elevation="8dp"
+            android:padding="5dp" />
+
+    </LinearLayout>
+</RelativeLayout>
